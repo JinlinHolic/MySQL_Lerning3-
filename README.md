@@ -17,3 +17,28 @@ MySQL支持所有标准SQL数值数据类型。
 BIT数据类型保存位字段值，并且支持MyISAM、MEMORY、InnoDB和BDB表。
 
 作为SQL标准的扩展，MySQL也支持整数类型TINYINT、MEDIUMINT和BIGINT。下面的表显示了需要的每个整数类型的存储和范围。
+![WeChat Image_20190403212138](https://user-images.githubusercontent.com/43989688/55506761-8b8d9a00-5656-11e9-9538-b8e34a965270.png)
+
+### 日期和时间类型
+
+表示时间值的日期和时间类型为DATETIME、DATE、TIMESTAMP、TIME和YEAR。
+
+每个时间类型有一个有效值范围和一个"零"值，当指定不合法的MySQL不能表示的值时使用"零"值。
+
+### 字符串类型
+
+字符串类型指CHAR、VARCHAR、BINARY、VARBINARY、BLOB、TEXT、ENUM和SET。该节描述了这些类型如何工作以及如何在查询中使用这些类型。
+
+参考链接:http://www.runoob.com/mysql/mysql-data-types.html
+
+### 2. 用SQL语句创建表
+
+语句解释 设定列类型 、大小、约束 设定主键。
+
+DROP TABLE 表的名称 --删除整张表
+
+CREATE TABLE 表的名称 --建立表和列
+
+举例:
+
+
