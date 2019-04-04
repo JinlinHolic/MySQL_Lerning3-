@@ -316,7 +316,8 @@ Id 是这个表的主键。
 
 ![WeChat Image_20190404210858](https://user-images.githubusercontent.com/43989688/55581726-e9d18000-571d-11e9-978e-9f6dd84c8ac6.png)
 
-
-
-
+DELETE e1 FROM email e1, email e2 Where
+	e1.email = e2.email AND e1.Id > e2.Id SELECT * FROM email;
+         
+         运行之后一直出现syntax错误 还没找出原因。。。。。今天起来补上！！！！！！！！！！！！！！！！！！！！！！！！！
 
