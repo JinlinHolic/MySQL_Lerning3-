@@ -318,5 +318,7 @@ Id 是这个表的主键。
 
 DELETE e1 FROM email e1, email e2 Where
 	e1.email = e2.email AND e1.Id > e2.Id SELECT * FROM email;
-         
+	
+![WeChat Image_20190404225047](https://user-images.githubusercontent.com/43989688/55587722-4d62aa00-572c-11e9-88f8-cb4dada0ec3c.png)
+
          
