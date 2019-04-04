@@ -113,8 +113,53 @@ drop，truncate，delete区别
 ALTER TABLE 表名 CHANGE 列名 新列名 列类型
 
 
+## 作业
 
+### 项目三：超过5名学生的课（难度：简单）
 
+创建如下所示的courses 表 ，有: student (学生) 和 class (课程)。
+
++---------+------------+
+
+| student | class      |
+
++---------+------------+‘’
+
+| A       | Math       |
+
+| B      | English    |
+
+| C       | Math       |
+
+| D       | Biology    |
+
+| E       | Math       |
+
+| F       | Computer   |
+
+| G       | Math       |
+
+| H       | Math       |
+
+| I       | Math       |
+
+| A      | Math       |
+
++---------+------------+
+
+编写一个 SQL 查询，列出所有超过或等于5名学生的课。应该输出:
+
++---------+
+
+| class   |
+
++---------+
+
+| Math    |
+
++---------+
+
+Note:学生在每个课中不应被重复计算。
 
 
 
