@@ -51,6 +51,20 @@ CREATE TABLE 表的名称 --建立表和列
 
 ![WeChat Image_20190404171541](https://user-images.githubusercontent.com/43989688/55567181-70299a00-56fd-11e9-894e-050d809a37d4.png)
 
+###  用SQL语句向表中添加数据
+
+SQL语言使用insert语句向数据库表格中插入或添加新的数据行。
+
+insert into tablename 
+
+(first_column,...last_column) 
+
+values (first_value,...last_value);  上图有举例
+注意: 存储在列中的数据在values子句中给出，必须每列一个值,如果当前values没有值 就输入NULL。
+
+指定列名插入: INSERT INTO `DATABASE`.`TABLE` (COLUMN) VALUES ('CONTENT')
+不指定列名插入:INSERT INTO table VALUES('CONTENT','CONTENT','CONTENT'...);
+
 
 
 
