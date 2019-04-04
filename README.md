@@ -161,5 +161,8 @@ ALTER TABLE 表名 CHANGE 列名 新列名 列类型
 
 Note:学生在每个课中不应被重复计算。
 
+![WeChat Image_20190404190434](https://user-images.githubusercontent.com/43989688/55574386-90148a00-570c-11e9-8176-fca920964e46.png)
+
+
 
 
