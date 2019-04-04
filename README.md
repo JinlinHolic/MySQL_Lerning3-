@@ -251,6 +251,8 @@ UNION
 
 PersonId 是上表主键
 
+![WeChat Image_20190404200455](https://user-images.githubusercontent.com/43989688/55577913-fa312d00-5714-11e9-850a-4386e36043cb.png)
+
 表2: Address
 
 +-------------+---------+
@@ -273,6 +275,10 @@ AddressId 是上表主键
 
 编写一个 SQL 查询，满足条件：无论 person 是否有地址信息，都需要基于上述两表提供 person 的以下信息：FirstName, LastName, City, State
 
-![WeChat Image_20190404200455](https://user-images.githubusercontent.com/43989688/55577913-fa312d00-5714-11e9-850a-4386e36043cb.png)
+![WeChat Image_20190404201704](https://user-images.githubusercontent.com/43989688/55578687-c48d4380-5716-11e9-9f58-ebff846dfc63.png)
+
+
+
+
 
 
