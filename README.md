@@ -35,11 +35,23 @@ BIT数据类型保存位字段值，并且支持MyISAM、MEMORY、InnoDB和BDB�
 
 语句解释 设定列类型 、大小、约束 设定主键。
 
+语法:   USE 数据库名(database) CREATE TABLE 表名(列名 类型(大小) pk,
+         
+                                               (列名 类型(大小),
+                                               
+                                               (列名 类型(大小)
+                                               
+                                                ......);
+
 DROP TABLE 表的名称 --删除整张表
 
 CREATE TABLE 表的名称 --建立表和列
 
 举例:建立表和列 并设定id为主键(PK)
+
+![WeChat Image_20190404171541](https://user-images.githubusercontent.com/43989688/55567181-70299a00-56fd-11e9-894e-050d809a37d4.png)
+
+
 
 
 
